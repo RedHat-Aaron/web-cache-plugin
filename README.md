@@ -2,6 +2,8 @@ web-cache-plugin
 You can use this plugin by follow way.
 
 Step 1
+
+```xml
   <plugins>
             <plugin>
                 <!--打包时重命名插件-->
@@ -29,7 +31,7 @@ Step 1
                 </executions>
             </plugin>
    </plugins>
-   
+ ```  
    Step 2
    You need package project by commond of maven.
    maven clean install -Dmaven.test.skip=true
